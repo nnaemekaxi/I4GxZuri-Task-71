@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: black;
+}
+main{
+    width: 80%;
+    display: grid;
+    grid-template-areas: 
+    "reds reds oranges"
+    "greens blues blues"
+    "greens dblues dblues"
+    ;
+    gap: 10px;
+    width: 50%;
+    margin: 100px;
+
+}
+#red{
+    background: red;
+    grid-area: reds;
+    width: 600px;
+    height: 200px;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+#orange{
+    background: orange;
+    grid-area: oranges;
+    width: 200px;
+    height: 200px;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+#green{
+    background: green;
+    grid-area: greens;
+    width: 400px;
+    height: 400px;
+    margin-top: 10px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+#blue{
+    background: rgb(47, 157, 190);
+    grid-area: blues;
+    width: 400px;
+    height: 190px;
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+#dblue{
+    background: rgb(47, 157, 190);
+    grid-area: dblues;
+    width: 400px;
+    height: 190px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 50px;
+}
